@@ -260,35 +260,35 @@ footer {
 }
 
 footer .footer-container {
-    
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
     gap: 116px;
 }
 
-.footer-container .socail
-{
-    max-width: 562px;
-}
 .footer-container .socail p {
     color: #474747;
     line-height: 28px;
     font-size: 16px;
     margin-bottom: 30px;
 }
-.footer-container .icons a {
-    margin-right: 24px;
 
+footer .footer-container .socail {
+    max-width: 562px;
 }
 
- .footer-container h2 {
+footer .footer-container h2 {
     color: #181818;
     font-size: 35px;
     margin-bottom: 20px;
 }
 
+.footer-container .icons a {
+    margin-right: 24px;
 
-.footer-container form input[type="text"],
-.footer-container form  {
+}
+.footer-container form input[type="text"],.footer-container form  {
     width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
